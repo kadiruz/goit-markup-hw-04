@@ -62,7 +62,7 @@ body {
     
 }
 .std ::after{
-    content: "";
+    content: " ";
     width: 100%;
     position: absolute;
     left: 0;
