@@ -57,18 +57,17 @@ a {
 }
 .liste-one {
     position: relative;
-    color: #404bbf;
+   
 }
 .std-one {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    background-color: #404bbf;
     padding: 24px 0;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+    color: #404bbf;
 }
 .std-one::after{
     content: "";
@@ -78,6 +77,7 @@ a {
     height: 4px;
     border-radius: 2px;
     bottom: -1px;
+    background-color: #404bbf;
     
 }
 .std-one:hover,
@@ -270,7 +270,7 @@ a {
     margin-top: 16px;
 }
 .smfirst {
-    width: 40px;
+    width:  40px;
     height: 40px;
 }
 .social-link{
@@ -326,6 +326,20 @@ a {
     object-position: center;
   }
 
+  #portfolio .list-two .divimg .photo-text {
+    position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background-color: #4d5ae5;
+  padding: 40px 32px;
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 .order-four {
     display: flex;
     flex-wrap: wrap;
@@ -424,7 +438,7 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.last .social-container .smedia .smfirts .social-link:hover,
-.last .social-container .smedia .smfirts .social-link:focus {
+.last .social-link:hover,
+.last  .social-link:focus {
     background-color: #31d0aa
 }
