@@ -20,24 +20,24 @@
                 <nav class="nav">
                     <a class="logo-one" href="./index.html">Web<span class="spn">Studio</span> </a>
                     <ul class="order-one">
-                        <li>
-                            <a class="std" href="">Studio</a>
+                        <li class="list-one">
+                            <a class="std-one" href="">Studio</a>
                         </li>
-                        <li>
-                            <a class="std" href="">Portfolio</a>
+                        <li class="list-one">
+                            <a class="std-one" href="">Portfolio</a>
                         </li>
-                        <li>
-                            <a class="std" href="">Contacts</a>
+                        <li class="list-one">
+                            <a class="std-one" href="">Contacts</a>
                         </li>
                     </ul>
                 </nav>
-                <address class="adres">
+                <address id ="adres" class="adres">
                     <ul class="order-two">
-                        <li>
-                            <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com </a>
+                        <li class="liste-two">
+                            <a class="std-one" href="mailto:info@devstudio.com">info@devstudio.com </a>
                         </li>
-                        <li>
-                            <a class="mail" href="tel:+110001111111"> +11 (000) 111-11-11 </a>
+                        <li class="liste-two">
+                            <a class="std-one" href="tel:+110001111111"> +11 (000) 111-11-11 </a>
                         </li>
                     </ul>
                 </address>
@@ -57,12 +57,26 @@
                 <h2 class="visually-hidden">Our Talents</h2>
                 <ul class="order-three">
                     <li class="order-threeli">
+                        <div class="icon-container">
+                            <svg width="64" height="64">
+                                <use
+                                    href="./images/icons.svg#icon-antenna"
+                                ></use>
+                            </svg>
+                        </div>
                         <h3 class="baslik-uc">Strategy</h3>
                         <p class="p-bir">Our goal is to identify the business
                             problem to walk away with the perfect and creative solution.
                         </p>
                     </li>
                     <li class="order-threeli">
+                        <div class="icon-container">
+                            <svg width="64" height="64">
+                                <use
+                                    href="./images/icons.svg#icon-clock"
+                                ></use>
+                            </svg>
+                        </div>
                         <h3 class="baslik-uc">Punctuality</h3>
                         <p class="p-bir">Bring the key message to the brand's audience for the best price within the
                             shortest
@@ -71,6 +85,13 @@
                         </p>
                     </li>
                     <li class="order-threeli">
+                        <div class="icon-container">
+                            <svg width="64" height="64">
+                                <use
+                                    href="./images/icons.svg#icon-diagram"
+                                ></use>
+                            </svg>
+                        </div>
                         <h3 class="baslik-uc">Diligence</h3>
                         <p class="p-bir"> Research and confirm brands that present the strongest digital growth
                             opportunities
@@ -79,6 +100,13 @@
                         </p>
                     </li>
                     <li class="order-threeli">
+                        <div class="icon-container">
+                            <svg width="64" height="64">
+                                <use
+                                    href="./images/icons.svg#icon-astronaut"
+                                ></use>
+                            </svg>
+                        </div>
                         <h3 class="baslik-uc">Technologies</h3>
                         <p class="p-bir">Design practice focused on digital experiences. We bring forth a deep passion
                             for
@@ -89,61 +117,270 @@
             </div>
 
         </section>
-        <section class="third-section">
+        <section class="third-section" id ="team">
             <div class="container">
                 <h2 class="baslik-two">Our Team</h2>
                 <ul class="order-three">
-                    <li class="list-one">
+                    <li class="list-three">
                         <img class="photo" src="./images/image.jpg" alt="marks photo" width="264">
                         <div class="div-two">
-                            <ul class="smedia">
-                                <li class="smfirts">
-                                    <a svg width="16" height="16"  class="smfirts-a" href=""></a>
-                                </li>
-
-                            </ul>
                             <h3 class="name">Mark Guerrero</h3>
                             <p class="job">Product Designer</p>
+                            <ul class="smedia">
+                                <li class="smfirst">
+                                    <a href="#" class="social-link">
+                                        <svg
+                                            class="social-icon"
+                                            width="16"
+                                            height="16"
+                                        >
+                                            <use
+                                                href="./images/icons.svg#icon-instagram"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="smfirst">
+                                    <a href="#" class="social-link">
+                                        <svg
+                                            class="social-icon"
+                                            width="16"
+                                            height="16"
+                                        >
+                                            <use
+                                                href="./images/icons.svg#icon-twitter"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="smfirst">
+                                    <a href="#" class="social-link">
+                                        <svg
+                                            class="social-icon"
+                                            width="16"
+                                            height="16"
+                                        >
+                                            <use
+                                                href="./images/icons.svg#icon-facebook"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="smfirst">
+                                    <a href="#" class="social-link">
+                                        <svg
+                                            class="social-icon"
+                                            width="16"
+                                            height="16"
+                                        >
+                                            <use
+                                                href="./images/icons.svg#icon-linkedin"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
 
                     </li>
-                    <li class="list-one">
+                    <li class="list-three">
                         <img class="photo" src="./images/image(1).jpg" alt="toms photo" width="264">
                         <div class="div-two">
                             <h3 class="name">Tom Ford</h3>
                             <p class="job">Frontend Developer</p>
+                            <ul class="smedia">
+                                <li class="smfirst">
+                                    <a href="#" class="social-link">
+                                        <svg
+                                            class="social-icon"
+                                            width="16"
+                                            height="16"
+                                        >
+                                            <use
+                                                href="./images/icons.svg#icon-instagram"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="smfirst">
+                                    <a href="#" class="social-link">
+                                        <svg
+                                            class="social-icon"
+                                            width="16"
+                                            height="16"
+                                        >
+                                            <use
+                                                href="./images/icons.svg#icon-twitter"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="smfirst">
+                                    <a href="#" class="social-link">
+                                        <svg
+                                            class="social-icon"
+                                            width="16"
+                                            height="16"
+                                        >
+                                            <use
+                                                href="./images/icons.svg#icon-facebook"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="smfirst">
+                                    <a href="#" class="social-link">
+                                        <svg
+                                            class="social-icon"
+                                            width="16"
+                                            height="16"
+                                        >
+                                            <use
+                                                href="./images/icons.svg#icon-linkedin"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
 
-
-
                     </li>
-                    <li class="list-one">
+                    <li class="list-three">
                         <img class="photo" src="./images/image(2).jpg" alt="camila photo" width="264">
                         <div class="div-two">
                             <h3 class="name">Camila Garcia </h3>
                             <p class="job">Marketing</p>
+                            <ul class="smedia">
+                                <li class="smfirst">
+                                    <a href="#" class="social-link">
+                                        <svg
+                                            class="social-icon"
+                                            width="16"
+                                            height="16"
+                                        >
+                                            <use
+                                                href="./images/icons.svg#icon-instagram"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="smfirst">
+                                    <a href="#" class="social-link">
+                                        <svg
+                                            class="social-icon"
+                                            width="16"
+                                            height="16"
+                                        >
+                                            <use
+                                                href="./images/icons.svg#icon-twitter"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="smfirst">
+                                    <a href="#" class="social-link">
+                                        <svg
+                                            class="social-icon"
+                                            width="16"
+                                            height="16"
+                                        >
+                                            <use
+                                                href="./images/icons.svg#icon-facebook"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="smfirst">
+                                    <a href="#" class="social-link">
+                                        <svg
+                                            class="social-icon"
+                                            width="16"
+                                            height="16"
+                                        >
+                                            <use
+                                                href="./images/icons.svg#icon-linkedin"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
 
                     </li>
-                    <li class="list-one">
+                    <li class="list-three">
                         <img class="photo" src="./images/image(3).jpg" alt="daniel photo" width="264">
                         <div class="div-two">
                             <h3 class="name">Daniel Wilson</h3>
                             <p class="job">UI Designer</p>
+                            <ul class="smedia">
+                                <li class="smfirst">
+                                    <a href="#" class="social-link">
+                                        <svg
+                                            class="social-icon"
+                                            width="16"
+                                            height="16"
+                                        >
+                                            <use
+                                                href="./images/icons.svg#icon-instagram"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="smfirst">
+                                    <a href="#" class="social-link">
+                                        <svg
+                                            class="social-icon"
+                                            width="16"
+                                            height="16"
+                                        >
+                                            <use
+                                                href="./images/icons.svg#icon-twitter"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="smfirst">
+                                    <a href="#" class="social-link">
+                                        <svg
+                                            class="social-icon"
+                                            width="16"
+                                            height="16"
+                                        >
+                                            <use
+                                                href="./images/icons.svg#icon-facebook"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="smfirst">
+                                    <a href="#" class="social-link">
+                                        <svg
+                                            class="social-icon"
+                                            width="16"
+                                            height="16"
+                                        >
+                                            <use
+                                                href="./images/icons.svg#icon-linkedin"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
 
                     </li>
                 </ul>
             </div>
-
-
         </section>
-        <section class="fourth-section">
+        <section class="fourth-section" id="portfolio">
             <div class="container">
                 <h2 class="baslik-two">Our Portfolio</h2>
                 <ul class="order-four">
                     <li class="list-two">
-                        <img class="photo" src="./images/Banking.jpg" alt="Banking"     width="360">
+                        <div class="divimg">
+                            <img class="photo" src="./images/Banking.jpg" alt="Banking"     width="360">
+                        </div>
+                        
                         <div class="div-three"> 
                             <h3 class="baslik-uc">Banking App</h3>
                             <p class="p-bir">App</p>
@@ -151,7 +388,9 @@
 
                     </li>
                     <li class="list-two">
-                        <img class="photo" src="./images/Cashless.jpg" alt="Cashless" width="360">
+                        <div class="divimg" >
+                            <img class="photo" src="./images/Cashless.jpg" alt="Cashless" width="360">
+                        </div>
                         <div class="div-three">
                             <h3 class="baslik-uc">Cashless Payment</h3>
                             <p class="p-bir">Marketing</p>
@@ -159,7 +398,10 @@
 
                     </li>
                     <li class="list-two">
-                        <img class="photo" src="./images/Meditation.jpg" alt="Meditation" width="360">
+                        <div class="divimg">
+                            <img class="photo" src="./images/Meditation.jpg" alt="Meditation" width="360">
+                        </div>
+                        
                         <div class="div-three">
                             <h3 class="baslik-uc">Meditation App</h3>
                             <p class="p-bir">App</p>
@@ -168,7 +410,10 @@
 
                     </li>
                     <li class="list-two">
-                        <img class="photo" src="./images/Taxi.jpg" alt="Taxi" width="360">
+                        <div class="divimg">
+                            <img class="photo" src="./images/Taxi.jpg" alt="Taxi" width="360">
+                        </div>
+                        
                         <div class="div-three">
                             <h3 class="baslik-uc">Taxi Service</h3>
                             <p class="p-bir">Marketing</p>
@@ -176,14 +421,16 @@
 
                     </li>
                     <li class="list-two">
-                        <img class="photo"  src="./images/Screen.jpg" alt="Screen" width="360">
+                        <div class="divimg"><img class="photo"  src="./images/Screen.jpg" alt="Screen" width="360"></div>
                         <div class="div-three">
                             <h3 class="baslik-uc">Screen Illustrations</h3>
                             <p class="p-bir">Design</p>
                         </div>
                     </li>
                     <li class="list-two">
-                        <img class="photo" src="./images/Online.jpg" alt="Online" width="360">
+                        <div class="divimg">
+                            <img class="photo" src="./images/Online.jpg" alt="Online" width="360">
+                        </div>
                         <div class="div-three">
                             <h3 class="baslik-uc">Online Courses</h3>
                             <p class="p-bir">Marketing</p>
@@ -196,11 +443,55 @@
     </main>
     <footer class="last">
         <div class="container">
-            <a class="logo-two" href="./index.html"> Web<span>Studio</span> </a>
-            <p class="p-iki">
+            <div class="subcontainer">
+                <a class="logo-two" href="./index.html"> Web<span class="logo-two-span">Studio</span> </a>
+                <p class="p-iki">
                 Increase the flow of customers and sales for your business with digital marketing & growthsolutions.
-            </p>
+                </p>
+            </div>
+            <div class="social-container">
+                <p class="text">Social media</p>
+                <ul class="smedia">
+                    <li class="smfirst">
+                        <a href="#" class="social-link">
+                            <svg class="social-icon" width="24" height="24">
+                                <use
+                                    href="./images/icons.svg#icon-instagram"
+                                ></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="smfirst">
+                        <a href="#" class="social-link">
+                            <svg class="social-icon" width="24" height="24">
+                                <use
+                                    href="./images/icons.svg#icon-twitter"
+                                ></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="smfirst">
+                        <a href="#" class="social-link">
+                            <svg class="social-icon" width="24" height="24">
+                                <use
+                                    href="./images/icons.svg#icon-facebook"
+                                ></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="smfirst">
+                        <a href="#" class="social-link">
+                            <svg class="social-icon" width="24" height="24">
+                                <use
+                                    href="./images/icons.svg#icon-linkedin"
+                                ></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    
 
     </footer>
 </body>
